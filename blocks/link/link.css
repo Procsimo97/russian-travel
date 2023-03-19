@@ -1,0 +1,9 @@
+/*собраны стили при наведении для всех ссылок сразу*/
+.link {
+  color: #fff;
+  transition: opacity .3s ease-in-out;
+}
+ 
+.link:hover{
+  opacity: .5;
+}
