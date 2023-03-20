@@ -1,12 +1,5 @@
 .header__lang-links {
-  height: 28px;
   display: flex;
   margin-top: 18px;
   gap: 18px;
-}
-
-@media screen and (max-width: 320px) {
-  .header__lang-links {
-    height: 20px;
-  }  
 }
