@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
   .places {
     width: 720px;
     margin: 0;
@@ -18,13 +18,13 @@
   }
 }
 
-@media screen and (max-width: 692px) {
+@media screen and (max-width: 745px) {
   .places {
     width: calc(100vw - 16px*2);
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 445px) {
   .places {
     gap: 50px;
     width: 100%;

@@ -10,13 +10,12 @@
 @media screen and (max-width: 1024px) {
   .page {
     max-width: 1024px;
-    
   }  
 }
 
 @media screen and (max-width: 768px) {
  .page {
-  margin: 28px 24px;
+  margin: 28px 0;
  }
 }
 
