@@ -2,11 +2,13 @@
   position: relative;
   display: flex;
   flex-direction: column;
+ /* width: calc(100% - 48px*2);*/
+  min-height: 740px;
   align-items: center;
   justify-content: center;
-  height: 100%;
   background-image: url(../../../images/cover-trains.jpg);
-  background-size: 100% 100%;
+  background-position: center;
+  background-size: cover;
   text-decoration: none;
   text-align: center;
   color: inherit;
@@ -28,4 +30,24 @@
 
 .cover__overlay:hover::after {
   opacity: .8;
+}
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    width: 100%;
+    min-height: 640px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    min-height: 480px;
+}
+}
+
+@media screen and (max-width: 425px) {
+.cover__overlay {
+  margin-top: 2px;
+  min-height: 200px;
+}
 }
